@@ -1,5 +1,5 @@
 
-def print_book_report(word_count, letter_count):
+def print_basic_book_report(word_count, letter_count):
     
     print(str(word_count) + " words found in the document")
     

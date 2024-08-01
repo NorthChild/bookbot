@@ -1,5 +1,5 @@
 
-def print_book_report(word_count, letter_count):
+def print_complete_book_report(word_count, letter_count):
     
     print(str(word_count) + " words found in the document")
     
@@ -10,4 +10,4 @@ def print_book_report(word_count, letter_count):
         
     print("--------")
     
-    ## to continue 
+    ## words used ordered by most used 
