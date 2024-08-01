@@ -1,6 +1,6 @@
 import re
 
-def words_instance_count(text): 
+def count_instances_of_word(text): 
     words_counts = {}
     lowered_words = []
     pattern = r'[^\w\s]'

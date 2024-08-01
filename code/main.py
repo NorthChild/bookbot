@@ -18,13 +18,13 @@ def main():
     word_count = counters.word_count.book_word_count(book_text)
     # print("Found a total of: " + str(word_count) + f" words for {book_file_path}")
     
-    word_instance_count = counters.word_instance_count.words_instance_count(book_text)
-    # print("Specific words count: " +str(word_count) + f" for {book_file_path}")
+    # word_instance_count = counters.word_instance_count.count_instances_of_word(book_text)
+    # # print("Specific words count: " +str(word_count) + f" for {book_file_path}")
     
     # specific_word_count = counters.count_specific_word.find_specific_word_count(word_count, input())
-    # print(specific_word_count)
+    # # print(specific_word_count)
     
-    letter_count = counters.letter_instance_count.letter_instance_count(book_text)
+    letter_count = counters.letter_instance_count.count_instances_of_letters(book_text)
     # print("Letters count: " + str(letter_count) + f" for {book_file_path}")
     
     # print report
@@ -37,7 +37,7 @@ def main():
     # add a way to have multiple books 
     # on launch, choose a book
     # add user choice of looking for specific words in the book or print a report (basic or complete)
-
+    # add unit tests 
 
     
         

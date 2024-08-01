@@ -1,6 +1,6 @@
 import re 
 
-def letter_instance_count(text):
+def count_instances_of_letters(text):
     letter_counts = {}
     
     for letter in text: 
