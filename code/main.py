@@ -17,9 +17,9 @@ def main():
     book_text = utilities.get_book.get_book_text(books_file_path[3])
     # print(book_text)
     
-    word_count = counters.word_count.book_word_count(book_text)    
-    letter_count = counters.letter_instance_count.count_instances_of_letters(book_text)
-    word_instance_count = counters.word_instance_count.count_instances_of_word(book_text)
+    # word_count = counters.word_count.book_word_count(book_text)    
+    # letter_count = counters.letter_instance_count.count_instances_of_letters(book_text)
+    # word_instance_count = counters.word_instance_count.count_instances_of_word(book_text)
     
     # specific_word_count = counters.count_specific_word.find_specific_word_count(word_instance_count, input())
     # print(specific_word_count)

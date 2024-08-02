@@ -17,4 +17,5 @@ def count_instances_of_word(text):
             words_counts[word] = 1
         else:
             words_counts[word] += 1
+    words_counts = dict(sorted(words_counts.items(), key=lambda item: item[1], reverse=True))
     return words_counts

@@ -57,6 +57,9 @@ def bookbot_terminal_app(books_file_path):
         if int(report_choice) == 1:
             word_count = counters.word_count.book_word_count(book_text)    
             letter_count = counters.letter_instance_count.count_instances_of_letters(book_text)
-            report_builder.report_builder_basic.print_basic_book_report(word_count, letter_count);
+            report_builder.report_builder_basic.print_basic_book_report(books_file_path[int(book_selection)], word_count, letter_count)
         elif int(report_choice) == 2:
-            report_builder.report_builder_complete.print_complete_book_report();
+            word_count = counters.word_count.book_word_count(book_text)    
+            letter_count = counters.letter_instance_count.count_instances_of_letters(book_text)
+            words_count = counters.word_instance_count.count_instances_of_word(book_text)
+            report_builder.report_builder_complete.print_complete_book_report(books_file_path[int(book_selection)], word_count, letter_count, words_count)
